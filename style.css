@@ -1,0 +1,89 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: gotham;
+    margin: 0;
+}
+
+/* HEADER */
+header ul{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+header .heading{
+    float: left;
+}
+header .heading h1{
+    color: white;
+    padding-left: 14pt;
+    letter-spacing: 1pt;
+    font-size: 14pt;
+}
+header .option{
+    display: flex;
+    justify-content: end;
+}
+header a{
+    display: block;
+    padding: 14pt;
+    text-decoration: none;
+    color: white;
+}
+header a:hover {
+    background-color: black;
+    color: white;
+}
+/* FOOTER */
+footer {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    border-top-style: solid;
+    border-top-width: 1pt;
+    border-color: white;
+    padding: 4pt;
+}
+
+/* SECTION */
+section .div{
+    padding-top: 35pt;
+}
+section .strongtext{
+    text-align: center;
+    font-size: 24pt;
+    padding: 16pt;   
+}
+section .container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 16pt;
+    background-color: #333;
+    color: white;
+}
+section .img img{
+    width: 240px;
+    height: 240px;
+    border-radius: 24pt;
+    padding: 4pt;
+}
+section .about{
+    line-height: 1.4;
+    text-align: justify;
+    padding: 4pt;
+}
+section .contact{
+    padding: 4pt;
+}
